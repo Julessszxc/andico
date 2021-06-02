@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Markazi+Text&family=Mate+SC&family=Suranna&family=Tienne&family=Trirong:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff !important;
+	text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	padding-right: 50% ; 
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.navbar{
+	background-color:  #34656d !important;
+	width: 100%;
+	font-size: 1.2em;
+}
+
+.first{
+	background-image: url(/ABOUT/aboutbg.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-position:right;
+    position: relative;
+	height: 750px;
+}
+
+.txt{
+	text-align: center;
+	margin-top: 10%;
+	
+	padding: 150px 0px;
+}
+
+.txt h1{
+	font-size: 5em;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+}
+
+.txt h2	{
+	font-size: 2em;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: rgb(75, 75, 75);
+}
+
+.txt p{
+	font-size: 1.5em;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 400;
+}
+
+.firstcol{
+	padding-left: 5%;
+}
+
+.desc1{
+	font-size: 1em;
+	padding: 10%;
+	background-color: rgba(94, 145, 204, 0.178);
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.desc1 span{
+	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(83, 83, 83);
+}
+
+.desc1 p {
+	line-height: 40px;
+	margin-top: 10%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.me{
+	width: 610px;
+}
+
+.second{
+	margin-top: 10%;
+}
+
+
+.third{
+	margin-top: 50px;
+	height: -50%;
+}
+
+.secondcol{
+	padding-right: 3.6%;
+}
+
+.desc2{
+	font-size: 1em;
+	padding: 10%;
+	padding-top: 25%;
+	background-color: rgba(94, 145, 204, 0.178);
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.desc2 p{
+	line-height: 40px;
+	margin-top: 10%;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.desc2 h3{
+		font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(83, 83, 83);
+}
+
+.me2{
+	width: 780px;
+	float: right;
+	padding-left: 2.5%;
+}
+
+.footer{
+	background-color: rgb(48, 48, 48);
+	color: white;
+	padding: 2%;
+	text-align: center;
+}
+
+.footer h1{
+	font-size: 2em;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+}
+
+.fourth{
+
+	background-color: rgb(110, 110, 110);
+	padding: 0%;
+	margin: 0%;
+	margin-top: 10%;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(187, 187, 187);
+}
+
+@media (max-width:1800px) {
+
+}
+
+@media (max-width:1400px) {
+
+
+
+}
+
+@media (max-width:1350px) {
+
+
+  }
+
+@media (max-width:1300px) {
+
+
+  @media (max-width:1230px) {
+
+  }
+
+  @media (max-width:1200px) {
+
+  }
+
+}
+
+@media (max-width:992px) {
+
+	.nav-item{
+		text-align: center;
+
+	}
+
+	.nav-link{
+		font-size: 1.2em;
+	}
+
+	
+}
+
+
+@media (max-width:888px) {
+	.nav-item{
+		text-align: center;
+
+	}
+
+	.navbar{
+		padding-bottom: 15px;
+	}
+
+
+	.nav-link{
+		font-size: 1.2em;
+	}
+	
+	.first{
+		background-position:center;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.img1{
+		padding-left: 0%;
+	}
+
+	.img2{
+		padding-right: 0%;
+	}
+
+
+}
+
+@media (max-width:576px) {
+
+}

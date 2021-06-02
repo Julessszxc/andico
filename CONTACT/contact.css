@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff !important;
+	text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.navbar{
+	background-color:  #34656d !important;
+	width: 100%;
+	font-size: 1.2em;
+}
+
+.fas,.fab{
+    padding-top: 25%;
+    font-size: 15em;
+    color: rgba(255, 255, 255, 0.541);
+    transition: color 1s;
+}
+
+h1{
+    font-size: 1.8em;
+    opacity: 0;
+    transition: opacity 1s;
+    color: rgb(0, 0, 0);
+}
+
+.content{
+    text-align: center;
+}
+
+.icon{
+    height: 100vh;
+    background-image: url(/HOMEPAGE/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fa-google{
+    opacity: 1;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+}
+
+.fa-google:hover{
+    color: rgb(219,68,55);
+}
+
+.fa-sms:hover{
+    color: #11772d;
+}
+
+.content:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width:1800px) {
+
+}
+
+@media (max-width:1400px) {
+
+
+
+}
+
+@media (max-width:1350px) {
+
+
+  }
+
+@media (max-width:1300px) {
+
+
+  @media (max-width:1230px) {
+
+  }
+
+  @media (max-width:1200px) {
+
+  }
+
+}
+
+@media (max-width:992px) {
+
+	.nav-item{
+		text-align: center;
+
+	}
+
+	.nav-link{
+		font-size: 1.2em;
+	}
+
+    .icon{
+        height: 100vh;
+        background-image: url(/HOMEPAGE/background.jpg)no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+    }
+    
+
+	
+}
+
+
+@media (max-width:888px) {
+	.nav-item{
+		text-align: center;
+
+	}
+
+
+	.nav-link{
+		font-size: 1.2em;
+	}
+	
+}
+
+@media only screen and (max-width: 768px){
+
+
+
+}
+
+@media (max-width:576px) {
+    .fas,.fab{
+        padding-top: 7%;
+        font-size: 12em;
+        color: rgba(255, 255, 255, 0.541);
+        transition: color 1s;
+    }
+
+
+}

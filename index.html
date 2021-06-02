@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Website</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="node_modules/wowjs/css/libs/animate.css">
+	<link rel="stylesheet" type="text/css" href="HOMEPAGE/style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-dark sticky-top ">
+		<div class="container-fluid ">
+		  <a href="index.html" class="navbar-brand"><img src="HOMEPAGE/logo.png" alt="Picture of my lofo" width="100"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-menu">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="collapse-menu">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item ">
+				<a href="index.html" class="nav-link">Home</a>
+			  </li>
+			  <li class="nav-item ">
+				<a href="ABOUT/about.html" class="nav-link">About</a>
+			  </li>
+			  <li class="nav-item ">
+				<a href="works/works.html" class="nav-link">Works</a>
+			  </li>
+			  <li class="nav-item">
+				<a href="GALLERY/gallery.html" class="nav-link">Gallery</a>
+			  </li>
+			  <li class="nav-item ">
+				<a href="CONTACT/contact.html" class="nav-link">Contact</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+
+	<div class="first container-fluid d-flex align-items-center justify-content-center" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+	url(HOMEPAGE/background.jpg);">
+		<ul class="jules">
+			<li class="j">
+			  <input type="checkbox" />
+			  <div class="p">J</div>
+			</li>
+			<li class="j">
+			  <input type="checkbox" />
+			  <div class="p">U</div>
+			</li>
+			<li class="j">
+			  <input type="checkbox" />
+			  <div class="p">L</div>
+			</li>
+			<li class="j">
+			  <input type="checkbox" />
+			  <div class="p">E</div>
+			</li>
+			<li class="j"> 
+			  <input type="checkbox" />
+			  <div class="p">S</div>
+			</li>
+		  </ul>
+		
+		</div>
+	
+
+<hr></hr>
+
+	<section class="second">
+		<div class="intro">
+			<h1>CHRISTIAN JULES ANDICO</h1>
+			<p>Greetings everyone. This is my first attempt in making my very own website. <br>Hope you like it.</p>
+		</div>
+	</section>
+
+	<div class="third container-fluid">
+		<div class="row">
+			<div class="me col-md-6 d-flex align-items-center justify-content-center">
+				<img src="HOMEPAGE/me.jpg">
+			</div>
+			<div class="desc1 col-md-6">
+				<h1>An Information Technology Student</h1>
+				<p>I am Christian Jules G. Andico. I am currently enrolled at University of Negros Occidental - Recoletos.
+					As a freshmen, I find IT course challenging and fun.<br><br>
+					I am fond of exploring different areas in computer programming. This pushed me to choose IT as my course.<br>
+					Making a program gives me the satisfaction that nobody can give.<br><br>
+					I hope one day that I would be a succesful programmer. 
+				</p>
+				<button class="button" onclick="document.location='ABOUT/about.html'">Read More</button>
+			</div>
+		</div>
+	</div>
+
+<hr></hr>
+
+	<div class="between">
+		<div class="heading"></div>
+	</div>
+ 
+	<div class="fourth container-fluid">
+		<div class="row">
+			<div class="works col-md-6 d-flex align-items-center justify-content-center">
+				<img src="HOMEPAGE/workscover.jpg">
+			</div>
+			<div class="desc2 col-md-6">
+				<h1>Works</h1>
+				<p>Aside from programming, I spend some of my free time making poems. It is my way of expressing my feelings and thoughts.</p>
+				<button class="button button2" onclick="document.location='WORKS/works.html'">Read More</button>
+			</div>
+		</div>
+		
+	</div>
+
+	
+	<div class="fifth container-fluid">
+		<div class="row">
+			<div class="desc3 col-md-6 order-md-1 order-sm-2 order-2">
+				<h1>Gallery</h1>
+				<p>A collection of photos of me, my friends and my family about our bonding, experiences and adventures together.</p>
+				<button class="button button3" onclick="document.location='GALLERY/gallery.html'">Read More</button>
+			</div>
+			<div class="gallery col-md-6 order-md-2 order-sm-1 order-1 d-flex align-items-center justify-content-center">
+				<img src="HOMEPAGE/gallerycover.jpg">
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="end">
+	</div>
+	
+
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="/node_modules/wowjs/dist/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+
+</body>
+</html>
